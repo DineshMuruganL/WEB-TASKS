@@ -1,0 +1,82 @@
+
+.flex-container {
+  display: flex;
+ justify-content: center;
+}
+
+.flex-container1 {
+  display: flex;
+  justify-content: center;
+}
+/*THIS IS HEAD  AND CHANGE HOVER*/
+.halfCircle{
+     height:45px;
+     width:90px;
+     border-radius: 90px 90px 0 0;
+     background:green;
+}
+.halfCircle:hover{
+height: 50px;
+  width: 100px;
+  background-color:green;
+  border-radius: 50%;
+}
+/*THIS IS BODY*/
+ .square{
+     width:100px; 
+     height:100px; 
+     border:1px solid #000; 
+     background:yellow;
+}
+/*THIS IS LEFT LEG AND CHANGE HOVER*/
+ .leftleg{
+     height: 40px;
+     width: 15px; 
+    
+     border:1px solid #000; 
+     background:blue;
+}
+.leftleg:hover{
+       transform: rotate(40deg);
+}
+/*THIS IS HIDDEN BETWEEN TWO LEGS*/
+.square1{
+     width:50px; 
+     height:10px; 
+     visibility: hidden;
+     border:1px solid #000; 
+     background:yellow;
+}
+/*THIS IS RIGHT LEG AND CHANGE OVER*/
+.rightleg{
+     width:15px; 
+     height:40px; 
+     border:1px solid #000; 
+     background:blue;
+}
+.rightleg:hover{
+       transform: rotate(-40deg);
+}
+/*THIS IS LEFT HAND AND CHANGE OVER*/
+.lefthand{
+     width:20px; 
+     height:50px; 
+     border:1px solid #000; 
+     background:blue;
+}
+.lefthand:hover{
+       transform: rotate(150deg);
+}
+/*THIS IS RIGHT HAND AND CHANGE OVER*/
+.righthand{
+     width:20px; 
+     height:50px; 
+     border:1px solid #000; 
+     background:blue;
+}
+
+.righthand:hover{
+       transform: rotate(50deg);
+}
+
+
